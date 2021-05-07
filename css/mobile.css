@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.Logo{
+    position: relative;
+    width: 5rem;
+    display: inline-block;
+}
+.Logo img{
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8px;
+}
+.Nombre-Empresa{
+    display: inline-block;
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.main-nav{
+    display:flex;
+
+}
+nav li{
+    display: flex;
+    font-size: 2.5rem;
+    border: 3px black solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin:  0px 1rem 0 0px;
+}
+
+/* MAIN */
+
+main{
+    display:flex;
+    width: 100%;
+    height: 50%;
+    border-top:2px black solid;
+    border-bottom: 2px black solid;
+
+}
+
+aside{
+    width: 45%;
+    font-size: 1.5rem;
+}
+aside div{
+    border : 3px black solid;
+    border-radius: 10px;
+    text-align: center;
+    padding:1.2rem;
+    margin-bottom: 2rem;
+}
+
+.imagen-section{
+    width:60%;
+    height: 16rem;
+}
+
+.main-section{
+    width: 70%;
+    display: inline-block;
+    justify-content:center;
+}
+.main-section h1{
+    display: flex;
+}
+.main-section figure{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.main-section figure .imagen-section{
+   width: 90%;
+   margin-bottom: 12px;
+   border: 3px black solid;
+   border-radius: 15px;
+    
+}
