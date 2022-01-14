@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,17 +9,26 @@ html{
 }
 /* HEADER */
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 header{
     width: 100%;
     height: 25%;
-    display: inline-block;
-    margin-bottom: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
 }
 
 .Logo{
     position: relative;
-    width: 5rem;
-    display: inline-block;
+    width: 300px;
+    display: flex;
+    align-self: center; 
+    margin-bottom: ;
 }
 .Logo img{
     position: relative;
@@ -38,6 +47,7 @@ nav{
     display: flex;
     flex-direction: row;
     position: relative;
+    justify-content: center;
 }
 
 .main-nav{
@@ -61,12 +71,18 @@ main{
     height: 50%;
     border-top:2px black solid;
     border-bottom: 2px black solid;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
 aside{
-    width: 45%;
+    width: 330px;
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 aside div{
     border : 3px black solid;
@@ -74,6 +90,7 @@ aside div{
     text-align: center;
     padding:1.2rem;
     margin-bottom: 2rem;
+    width: 320px;
 }
 
 .imagen-section{
@@ -82,12 +99,15 @@ aside div{
 }
 
 .main-section{
-    width: 70%;
-    display: inline-block;
+    width: 400px;
+    display: flex;
     justify-content:center;
 }
-.main-section h1{
-    display: flex;
+main h1{
+    width: 320px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 10px;
 }
 .main-section figure{
     display: flex;
@@ -101,4 +121,7 @@ aside div{
    border: 3px black solid;
    border-radius: 15px;
     
+}
+main div div div .img.guitarra{
+    width: 280px;
 }
