@@ -137,6 +137,10 @@ footer{
 }
 footer .p-uno-footer{
     text-align: center;
+    color: white;
+}
+footer .p-dos-footer{
+    color: white;
 }
 footer .figure-uno-footer img{
     width: 50px;
@@ -145,7 +149,8 @@ footer .figure-uno-footer img{
 
 footer .figure-dos-footer img{
     width: 80px;
-    height: 50px;
+    height: 100px;
+    color: white;
 }
 footer form{
     width: 400px;
@@ -157,6 +162,7 @@ footer form{
     text-align: center;
     align-items: center;
     justify-content:space-around;
+    margin-bottom:30px;
 }
 footer form label{
     font-size: 2rem;
@@ -177,12 +183,4 @@ footer form button{
     font-size: 1.5rem;
     border-radius: 10%;
     background-color: white
-}
-
-footer .figure-uno-footer{
-   
-}
-
-footer .figure-dos-footer{
-    
 }
